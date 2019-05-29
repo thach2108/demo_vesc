@@ -1,0 +1,332 @@
+/* ==============================================================
+
+Project:	xxx - Creative Coming Soon Template
+Info:		https://themeforest.net/item/xxx
+Version:	1.0
+Author:		3F-Team
+Profile:	https://themeforest.net/user/3ftheme
+
+-----------------------------------------------------------------
+					*** TABLE OF CONTENTS ***
+-----------------------------------------------------------------
+
+	1.	Fonts
+	2.	General
+	3.	xxx
+	4.	xxx
+	5.	xxx
+	6.	xxx
+	7.	xxx
+	8.	xxx
+	8.	xxx
+	9.  xxx
+	10.	xxx
+	11.	xxx
+	12.	xxx
+
+=============================================================*/
+/*********************
+    - 1. Fonts -
+*********************/
+@font-face {
+  font-family: "Streamster";
+  src: url("fonts/Streamster.eot");
+  src: url("fonts/Streamster.eot?#iefix") format("embedded-opentype"), url("fonts/Streamster.woff") format("woff"), url("fonts/Streamster.ttf.html"), url("fonts/Streamster.ttf") format("truetype"), url("fonts/Streamster.svg#Streamster") format("svg");
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*********************
+    - 2. General -
+*********************/
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+}
+
+.disable {
+  display: none;
+}
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1170px;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clears {
+  clear: both;
+}
+
+.clear-fix,
+.clearfix {
+  clear: both;
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.vertical-mid {
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.streamster-font {
+  font-family: "Streamster" !important;
+}
+
+.required {
+  color: red;
+}
+
+.input-custom, .option-custom {
+  border: solid 1px #ddd;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px 0 30px 0;
+  padding: 10px;
+  position: relative;
+  height: 60px;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.input-custom:hover, .option-custom:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  border: 1px solid #91ad41;
+}
+
+.input-custom label.error, .option-custom label.error {
+  margin-top: 50px;
+  font-size: 12px;
+  color: red;
+}
+
+.input-custom-focus, .option-custom-focus {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  border: 1px solid #91ad41;
+}
+
+.input-custom p {
+  margin: 0;
+  color: #91ad41;
+  position: absolute;
+  font-size: 23px;
+  top: 0;
+  bottom: 0;
+  line-height: 60px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.option-custom p {
+  margin: 0;
+  position: absolute;
+  font-size: 9px;
+  top: 0;
+  bottom: 0;
+  line-height: 30px;
+}
+
+.input-custom input, .option-custom .select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  outline: none;
+  padding: 25px 0 10px 0;
+  vertical-align: bottom;
+  width: -webkit-calc(100% - 20px);
+  width: calc(100% - 20px);
+  z-index: 3;
+}
+
+.input-custom .place:focus ~ p, .option-custom .select:focus ~ p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.onvalue {
+  font-size: 14px !important;
+  line-height: 30px !important;
+}
+
+.section-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn-main {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #91ad41;
+  line-height: 40px;
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+.btn-main:hover {
+  background-color: #8d8d99;
+}
+
+.site-alert {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 9999;
+}
+
+.site-alert button {
+  line-height: 20px;
+}
+
+.site-loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.site-loading > .row {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.site-loading > .row .page-loading {
+  font-size: 96px;
+  color: #91ad41;
+}
+
+.account {
+  color: #28a745;
+}
+
+.breadcrumb {
+  padding: 96px 0;
+  background-image: url("./images/breadcrumb-bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.breadcrumb__nav li {
+  font-size: 30px;
+  color: #91ad41;
+}
+
+.login__topic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.login__form {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.login__form h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.login .check-box {
+  margin-bottom: 10px;
+}
+
+.login .check-box a {
+  color: #8d8d99;
+}
+
+.login .check-box a:hover {
+  color: #91ad41;
+}
+
+.login .check-box .title-black {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.login form .input-custom:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.login .captcha__loading {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #91ad41;
+}
+
+/*
+  demo scss
+*/
+
+/*# sourceMappingURL=style.css.map */

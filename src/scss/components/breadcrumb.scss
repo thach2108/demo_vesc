@@ -1,0 +1,13 @@
+.breadcrumb{
+  padding: 96px 0;
+  background-image: url('./images/breadcrumb-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  &__nav{
+    li{
+      font-size: 30px;
+      color: map-get( $theme-colors , 'main' );
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.login{
+  &__topic{
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  &__form{
+    max-width: 400px;
+    margin: 30px auto;
+    h2{
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+
+  .check-box{
+    margin-bottom: 10px;
+    a{
+      color: map-get($theme-colors ,'main-hover' );
+      &:hover{
+        color: map-get($theme-colors ,'main' );
+      }
+    }
+    .title-black{
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+  form{
+    .input-custom{
+      &:nth-child(2){
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .captcha{
+    &__loading{
+      margin-bottom: 20px;
+      font-size: 30px;
+      color: map-get($theme-colors, 'main' );
+    }
+  }
+}
