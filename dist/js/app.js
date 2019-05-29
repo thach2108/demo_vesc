@@ -230,7 +230,10 @@ Login = function () {
       var data = {
         username: form.username.value,
         password: form.password.value,
+        saveLogin: form.saveLogin.checked,
         'g-recaptcha-response': window.captcha || '' };
+
+      console.log('data', data);
 
       var proxyUrl = 'https://cors-anywhere.herokuapp.com/';
       var url = _Constants2.default.url + 'stripe/user/login';

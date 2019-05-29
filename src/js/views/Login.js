@@ -56,8 +56,11 @@ class Login {
     let data = {
       username: form.username.value,
       password: form.password.value,
+      saveLogin: form.saveLogin.checked,
       'g-recaptcha-response': window.captcha || ''
     }
+    console.log('data', data);
+    
     let proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     let url = Constants.url + 'stripe/user/login'
 
