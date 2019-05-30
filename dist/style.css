@@ -119,7 +119,8 @@ img {
   color: red;
 }
 
-.input-custom, .option-custom {
+.input-custom,
+.option-custom {
   border: solid 1px #ddd;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -132,20 +133,23 @@ img {
   transition: all .2s;
 }
 
-.input-custom:hover, .option-custom:hover {
+.input-custom:hover,
+.option-custom:hover {
   -webkit-transition: all .2s;
   -o-transition: all .2s;
   transition: all .2s;
   border: 1px solid #91ad41;
 }
 
-.input-custom label.error, .option-custom label.error {
+.input-custom label.error,
+.option-custom label.error {
   margin-top: 50px;
   font-size: 12px;
   color: red;
 }
 
-.input-custom-focus, .option-custom-focus {
+.input-custom-focus,
+.option-custom-focus {
   -webkit-transition: all .2s;
   -o-transition: all .2s;
   transition: all .2s;
@@ -157,7 +161,7 @@ img {
   color: #91ad41;
   position: absolute;
   font-size: 23px;
-  top: 0;
+  top: 2px;
   bottom: 0;
   line-height: 60px;
   -webkit-transition: all 0.3s;
@@ -175,27 +179,34 @@ img {
   line-height: 30px;
 }
 
-.input-custom input, .option-custom .select {
+.input-custom input,
+.option-custom .select {
   background: transparent;
   border: none;
   font-size: 14px;
   position: absolute;
   bottom: 0px;
   outline: none;
-  padding: 25px 0 10px 0;
+  padding: 30px 0 7px 0;
   vertical-align: bottom;
   width: -webkit-calc(100% - 20px);
   width: calc(100% - 20px);
   z-index: 3;
 }
 
-.input-custom .place:focus ~ p, .option-custom .select:focus ~ p {
-  font-size: 14px;
+.input-custom .place:focus ~ p,
+.option-custom .select:focus ~ p {
+  font-size: 18px;
   line-height: 30px;
 }
 
+.input-custom .place:focus ~ p span,
+.option-custom .select:focus ~ p span {
+  font-size: inherit;
+}
+
 .onvalue {
-  font-size: 14px !important;
+  font-size: 18px !important;
   line-height: 30px !important;
 }
 

@@ -1,4 +1,4 @@
-(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"/Users/dodangthach/Desktop/login/src/js/components/CustomInput.js":[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"/Users/dodangthach/Desktop/demo_vesc/src/js/components/CustomInput.js":[function(require,module,exports){
 "use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}} // import $ from jQuery
 var CustomInput = function () {
   function CustomInput(element) {_classCallCheck(this, CustomInput);
@@ -40,7 +40,7 @@ var CustomInput = function () {
 
 CustomInput;
 
-},{}],"/Users/dodangthach/Desktop/login/src/js/constants/Constants.js":[function(require,module,exports){
+},{}],"/Users/dodangthach/Desktop/demo_vesc/src/js/constants/Constants.js":[function(require,module,exports){
 'use strict';Object.defineProperty(exports, "__esModule", { value: true });exports.default = {
   url: 'https://dev.safesai.com/',
   messages: {
@@ -52,7 +52,7 @@ CustomInput;
     INCORECT: 604,
     INACTIVE: 605 } };
 
-},{}],"/Users/dodangthach/Desktop/login/src/js/controller/AccountController.js":[function(require,module,exports){
+},{}],"/Users/dodangthach/Desktop/demo_vesc/src/js/controller/AccountController.js":[function(require,module,exports){
 "use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}var AccountController = function () {
   function AccountController(name) {_classCallCheck(this, AccountController);
     this.name = name || "Account Contoller";
@@ -73,7 +73,7 @@ CustomInput;
 
 AccountController;
 
-},{}],"/Users/dodangthach/Desktop/login/src/js/index.js":[function(require,module,exports){
+},{}],"/Users/dodangthach/Desktop/demo_vesc/src/js/index.js":[function(require,module,exports){
 'use strict';
 
 
@@ -126,7 +126,7 @@ $(document).ready(function () {
   window.main = new Main();
 });
 
-},{"./views/Blog":"/Users/dodangthach/Desktop/login/src/js/views/Blog.js","./views/Home":"/Users/dodangthach/Desktop/login/src/js/views/Home.js","./views/Login":"/Users/dodangthach/Desktop/login/src/js/views/Login.js"}],"/Users/dodangthach/Desktop/login/src/js/views/Blog.js":[function(require,module,exports){
+},{"./views/Blog":"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Blog.js","./views/Home":"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Home.js","./views/Login":"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Login.js"}],"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Blog.js":[function(require,module,exports){
 "use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}var Blog = function () {
   function Blog(name) {_classCallCheck(this, Blog);
     this.name = name || "Blog";
@@ -144,7 +144,7 @@ $(document).ready(function () {
 
 Blog;
 
-},{}],"/Users/dodangthach/Desktop/login/src/js/views/Home.js":[function(require,module,exports){
+},{}],"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Home.js":[function(require,module,exports){
 "use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();var _AccountController = require("../controller/AccountController");var _AccountController2 = _interopRequireDefault(_AccountController);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}var
 
 Home = function () {
@@ -171,7 +171,7 @@ Home = function () {
 
 Home;
 
-},{"../controller/AccountController":"/Users/dodangthach/Desktop/login/src/js/controller/AccountController.js"}],"/Users/dodangthach/Desktop/login/src/js/views/Login.js":[function(require,module,exports){
+},{"../controller/AccountController":"/Users/dodangthach/Desktop/demo_vesc/src/js/controller/AccountController.js"}],"/Users/dodangthach/Desktop/demo_vesc/src/js/views/Login.js":[function(require,module,exports){
 'use strict';Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();var _CustomInput = require('../components/CustomInput');var _CustomInput2 = _interopRequireDefault(_CustomInput);
 var _Constants = require('../constants/Constants');var _Constants2 = _interopRequireDefault(_Constants);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}var
 
@@ -308,6 +308,6 @@ Login = function () {
 
 Login;
 
-},{"../components/CustomInput":"/Users/dodangthach/Desktop/login/src/js/components/CustomInput.js","../constants/Constants":"/Users/dodangthach/Desktop/login/src/js/constants/Constants.js"}]},{},["/Users/dodangthach/Desktop/login/src/js/index.js"])
+},{"../components/CustomInput":"/Users/dodangthach/Desktop/demo_vesc/src/js/components/CustomInput.js","../constants/Constants":"/Users/dodangthach/Desktop/demo_vesc/src/js/constants/Constants.js"}]},{},["/Users/dodangthach/Desktop/demo_vesc/src/js/index.js"])
 
 //# sourceMappingURL=app.js.map
