@@ -46,7 +46,7 @@
     "gulp-livereload": "^4.0.1",
     "gulp-util": "^3.0.8",
     "jquery": "^3.5.0",
-    "jquery-validation": "^1.19.0",
+    "jquery-validation": "^1.19.3",
     "reading-time": "^1.1.3",
     "validate.js": "^0.12.0",
     "vinyl-buffer": "^1.0.1",
